@@ -1,0 +1,29 @@
+{
+  "name": "recipe-api-worker",
+  "version": "1.0.0",
+  "description": "一个基于 Cloudflare Workers 的菜谱 API 服务",
+  "main": "src/worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:staging": "wrangler deploy --env staging",
+    "tail": "wrangler tail",
+    "test": "echo \"暂无测试\" && exit 0"
+  },
+  "keywords": [
+    "cloudflare-workers",
+    "api",
+    "recipes",
+    "cooking",
+    "chinese-cuisine"
+  ],
+  "author": "yqq-a",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yqq-a/recipe-api-worker2.git"
+  }
+}
