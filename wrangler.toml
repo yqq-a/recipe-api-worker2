@@ -1,5 +1,5 @@
 # Wrangler 配置文件
-name = "recipe-api"
+name = "2322"
 main = "src/worker.js"
 compatibility_date = "2024-01-01"
 
